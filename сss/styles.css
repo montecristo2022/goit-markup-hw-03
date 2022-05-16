@@ -1,0 +1,272 @@
+:root {
+ 
+    --primary-text-color: #FFFFFF;
+ --title-text-color: #212121;
+ --accent-color: #2196F3;
+ --small-text-color: #757575;
+--background-color: #2F303A;
+
+
+
+}
+
+body{
+    color: var(--title-text-color);
+    background-color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+
+.logo {
+   color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+
+}
+/* снизу вроде убрать */
+.webstudio {
+    color: var(--accent-color)
+}
+
+
+
+
+
+
+/* снизу вроде убрать */
+
+
+.accent{
+  color: #000000;  
+}
+/* хедер и бекграунд калор убрать вроде */
+.header {
+    background-color: var(--primary-text-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.nav-link,
+.contact-link {
+color: var(--title-text-color);
+
+font-weight: 500;
+     
+        line-height: 1.15px;
+        letter-spacing: 0.02em
+        
+ 
+}
+
+
+
+/* контакт-нав */
+.contact-link
+{
+    color: var(--small-text-color);
+    
+        
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.footer .contact-link:hover,
+.footer .contact-link:focus,
+.current {
+color: var(--accent-color);
+}
+/* снизу вроде убрать */
+
+
+.section-first, .section-second, .section-third {
+    color: var(--title-text-color);
+ 
+
+}
+
+.section-third {
+    color: var(--title-text-color);
+background-color: #F5F4FA;
+}
+
+
+
+
+.hero {
+    background-color: var(--background-color);
+}
+
+.hero-title {
+  
+font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+    color: var(--primary-text-color)
+    
+  
+ 
+
+ 
+}
+ 
+
+
+/* features */
+.feature-title {
+ 
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase
+
+}
+.feature-text {
+    color: var(--small-text-color);
+
+ 
+
+
+}
+
+/* кнопка */
+.button {
+        font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+color: var(--primary-text-color);
+    background-color: var(--accent-color)
+
+
+
+}
+.portfolio-button {
+    color: var(--title-text-color);
+        background-color: #F5F4FA;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.portfolio-button:hover{
+        color: var(--primary-text-color);
+            background-color: var(--accent-color);
+}
+.portfolio-button:focus{
+        color: var(--primary-text-color);
+            background-color: var(--accent-color);
+}
+
+.portfolio-title {
+ color: var(--title-text-color);
+font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text {
+    color: var(--small-text-color);
+}
+
+.workers-names
+{
+font-size: 16px;
+font-weight: 500;
+
+    line-height: 1.18;
+    text-align: center;
+
+}
+
+.workers-text {
+ color: var(--small-text-color);
+        font-size: 16px;
+        line-height: 1.18;  
+        text-align: center;
+}
+
+.footer {
+    background-color: var(--background-color);
+}
+
+.footer-nav-adress {
+    color: var(--primary-text-color);
+    font-style: normal;
+}
+
+
+
+.currently-active {
+    color: var(--primary-text-color);
+        background-color: var(--accent-color)
+}
+
+.footer .logo .accent {
+    color: var(--primary-text-color);
+}
+
+
+.footer .contact-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.pictures {
+    list-style: none;
+}
+.footer-contact {
+    list-style: none;
+}
+
+
+.footer-nav-adress {
+    text-decoration: none;
+}
+
+
+
+
+   
+/* лого шрифт Raleway вес 700*/
+/* шрифт везде кроме лого Roboto  */
+/* шрифт Roboto вес. Жирный 500. Мелкий 400 */
+/* весь маленький текст #757575 */
+/* весь жирный текст при копировании еще написано background #212121;  */
+/* цвет лого синяя часть. где черная не ясно #2196F3 */
+/* цвет кнопки с услугами (акцент) #2196F3 */
+/* цвет футера #2F303A */
+/* цвет за сотрудникам background: #F5F4FA; */
+/* цвет  рядом с кнопкой услуг background: #2F303A; */
