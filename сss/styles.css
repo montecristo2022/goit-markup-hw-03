@@ -312,10 +312,26 @@ font-weight: 500;
     margin-right: 50px;
 }
 
+.hide {
+    display: none;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
 }
+
+.feature-list {
+    display: flex;
+text-align: center;
+}
+
+.feature-list .item {
+    width: 270px;
+
+}
+
+
 
 
 
