@@ -97,6 +97,7 @@ font-weight: 500;
 /* контакт-нав */
 .contact-link
 {
+
     color: var(--small-text-color);
     
         
@@ -266,6 +267,24 @@ font-weight: 500;
     text-decoration: none;
 }
 
+.site-nav .link {
+    display: block;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.site-nav {
+    display: flex;
+}
+
+.site-nav .item {
+ background-color: tomato;
+    margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+    margin-right: 0;
+}
 
 
 
