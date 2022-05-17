@@ -21,18 +21,24 @@ body{
 
 }
 
+.list {
+    padding: 0;
+        margin: 0;
+
+    list-style: none;
+}
+
 .section-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
 
-.list {
-    list-style: none;
-}
+
 
 .link {
     text-decoration: none;
+
 }
 
 
@@ -44,6 +50,10 @@ body{
         font-size: 26px;
         line-height: 1.19;
         text-decoration: none;
+
+        
+
+     
 
 }
 
@@ -131,6 +141,7 @@ background-color: #F5F4FA;
 
 .hero {
     background-color: var(--background-color);
+    padding: 200px 280px;
 }
 
 .hero-title {
@@ -174,7 +185,11 @@ font-weight: 900;
             line-height: 30px;
 color: var(--primary-text-color);
     background-color: var(--accent-color);
+
     border-radius: 4px;
+    padding: 10px 32px;
+   
+ 
 
 
 
@@ -269,12 +284,14 @@ font-weight: 500;
 
 .site-nav .link {
     display: block;
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top: 32px;
+        padding-bottom: 32px;
+
 }
 
 .site-nav {
     display: flex;
+    margin-left: 93px;
 }
 
 .site-nav .item {
@@ -288,6 +305,7 @@ font-weight: 500;
 
 .contact-nav {
     display: flex;
+    margin-left: auto;
 }
 
 .contact-nav .item {
@@ -296,6 +314,7 @@ font-weight: 500;
 
 .main-nav {
     display: flex;
+    align-items: center;
 }
 
 
