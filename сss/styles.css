@@ -46,6 +46,14 @@ body{
         text-decoration: none;
 
 }
+
+
+.container {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 1170px;
+
+}
 /* снизу вроде убрать */
 .webstudio {
     color: var(--accent-color)
@@ -56,13 +64,13 @@ body{
 
 
 
-/* снизу вроде убрать */
-
 
 .accent{
   color: #000000;  
 }
-/* хедер и бекграунд калор убрать вроде */
+
+
+
 .header {
     background-color: var(--primary-text-color);
 }
@@ -164,7 +172,8 @@ font-weight: 900;
             font-size: 16px;
             line-height: 30px;
 color: var(--primary-text-color);
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
+    border-radius: 4px;
 
 
 
@@ -179,6 +188,7 @@ color: var(--primary-text-color);
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
+        border-radius: 4px;
 }
 .portfolio-button:hover{
         color: var(--primary-text-color);
