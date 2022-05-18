@@ -27,6 +27,7 @@ body{
         margin: 0;
 
     list-style: none;
+    display: flex
 }
 
 .section-title {
@@ -143,6 +144,8 @@ color: var(--accent-color);
 .section-third {
     color: var(--title-text-color);
 background-color: #F5F4FA;
+
+
 }
 
 
@@ -218,6 +221,9 @@ color: var(--primary-text-color);
         border-radius: 4px;
 
         padding: 6px 22px;
+        margin-bottom: 50px;
+        margin-right: 8px;
+      
       
 
 }
@@ -346,9 +352,11 @@ font-weight: 500;
     align-items: center;
 }
 
+
+
 .feature-list {
     display: flex;
-text-align: center;
+
 }
 
 .feature-list .item {
@@ -360,8 +368,7 @@ text-align: center;
 
     margin-top: 94px;
     margin-bottom: 94px;
-    padding-right: 215px;
-    padding-left: 215px;
+
 }
 
 .section-second {
@@ -391,6 +398,9 @@ flex-wrap: wrap;
 }
 
 
+.feature-list .item {
+    width: calc(100% / 4);
+}
 
 
 
