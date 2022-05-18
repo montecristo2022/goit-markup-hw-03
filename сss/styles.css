@@ -66,6 +66,7 @@ margin-left: auto;
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
+    
 
 }
 /* снизу вроде убрать */
@@ -130,7 +131,7 @@ color: var(--accent-color);
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    margin-top: 94px;
+  
 }
 /* снизу вроде убрать */
 
@@ -144,6 +145,8 @@ color: var(--accent-color);
 .section-third {
     color: var(--title-text-color);
 background-color: #F5F4FA;
+padding-top: 94px;
+padding-bottom: 94px;
 
 
 }
@@ -223,6 +226,7 @@ color: var(--primary-text-color);
         padding: 6px 22px;
         margin-bottom: 50px;
         margin-right: 8px;
+        
       
       
 
@@ -377,6 +381,7 @@ font-weight: 500;
 }
 
 .wrap-list {
+ 
     display: flex;
 flex-wrap: wrap;
 }
