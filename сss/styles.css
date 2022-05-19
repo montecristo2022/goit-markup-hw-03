@@ -241,13 +241,15 @@ color: var(--primary-text-color);
         border-radius: 4px;
 
         padding: 6px 22px;
-  
-        margin-right: 8px;
-        
+      
 }
 
-.last-button {
-    margin-right: 0px;
+.button-item {
+    margin-right: 8px;
+}
+
+.button-item:last-child {
+    margin-right: 0;
 }
 
 
@@ -278,7 +280,7 @@ margin-bottom: 4px;
 .portfolio-text {
     color: var(--small-text-color);
     margin-top: 0px;
-    margin-bottom: 20px;
+    
    
 }
 
@@ -366,9 +368,7 @@ font-weight: 500;
     margin-bottom: 0px;
 }
 
-.footer-contact-item:first-child {
-    margin-top: 20px;
-}
+
 
 
 .footer-nav-adress {
@@ -465,7 +465,8 @@ font-weight: 500;
 
     display: flex;
 flex-wrap: wrap;
-margin: -15px;
+margin-top: -30px;
+margin-right: -30px;
 
 
 }
@@ -473,7 +474,7 @@ margin: -15px;
 .wrap-element {
 margin-right: 30px;
 margin-top: 30px;
-  width: 370;
+  width: 370px;
 
 }
 
