@@ -57,11 +57,10 @@ margin-bottom: 50px;
         line-height: 1.19;
         text-decoration: none;
 
-        
-
-     
-
+    
 }
+
+
 
 
 .container {
@@ -337,6 +336,18 @@ font-weight: 500;
 .footer-contact {
  
     list-style: none;
+}
+
+.footer-contact-item {
+    margin-bottom: 9px;
+}
+
+.footer-contact-item:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-contact-item:first-child {
+    margin-top: 20px;
 }
 
 
