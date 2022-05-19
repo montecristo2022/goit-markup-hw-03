@@ -60,6 +60,11 @@ margin-bottom: 50px;
     
 }
 
+.container>.logo {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -358,6 +363,7 @@ font-weight: 500;
  
     list-style: none;
     padding-left: 0px;
+    margin-top: 0px;
 }
 
 .footer-contact-item {
@@ -533,6 +539,12 @@ p {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.footer-contact-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+
 
    
 /* лого шрифт Raleway вес 700*/
