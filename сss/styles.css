@@ -31,6 +31,9 @@ body{
 }
 
 .section-title {
+    margin-top: 0px;
+margin-bottom: 50px;
+
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -308,6 +311,8 @@ font-weight: 500;
 
 
 .pictures {
+    padding: 0;
+    margin: 0;
     display: flex;
     list-style: none;
     
@@ -317,6 +322,12 @@ font-weight: 500;
     margin-right: 30px;
  
 }
+
+.picture-list:last-child {
+    margin-right: 0px;
+}
+
+
 
 
 .footer-contact {
@@ -359,6 +370,11 @@ font-weight: 500;
 .contact-nav .item {
     margin-right: 50px;
 }
+
+.contact-nav .item:last-child {
+    margin-right: 0px;
+}
+
 
 .hide {
     position: absolute;
@@ -437,6 +453,11 @@ margin: -15px;
 .hiden {
     visibility: hidden
 }
+
+.device-picture {
+    display: block;
+}
+
 
    
 /* лого шрифт Raleway вес 700*/
