@@ -272,6 +272,9 @@ font-weight: 500;
     line-height: 1.18;
     text-align: center;
 
+    margin-top: 30px;
+    margin-bottom: 10px;
+
 }
 
 .workers-text {
@@ -279,6 +282,9 @@ font-weight: 500;
         font-size: 16px;
         line-height: 1.18;  
         text-align: center;
+
+        margin-top: 0px;
+        margin-bottom: 30px;
 }
 
 .footer {
@@ -326,8 +332,6 @@ font-weight: 500;
 .picture-list:last-child {
     margin-right: 0px;
 }
-
-
 
 
 .footer-contact {
@@ -448,16 +452,24 @@ margin: -15px;
 
 .workers-list {
     margin-right: 30px;
+    background-color: #FFFFFF;
 }
 
-.hiden {
-    visibility: hidden
+.workers-list:last-child {
+    margin-right: 0px;
 }
+
+
 
 .device-picture {
     display: block;
 }
 
+.employee-img {
+    display: block;
+
+    margin-bottom: 0px;
+}
 
    
 /* лого шрифт Raleway вес 700*/
