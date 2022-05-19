@@ -544,7 +544,9 @@ p {
     margin-bottom: 9px;
 }
 
-
+.footer-contact {
+    margin-bottom: 0;
+}
    
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */
