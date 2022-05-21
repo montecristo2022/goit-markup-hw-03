@@ -19,3 +19,5 @@ height: 120px;
 
 var(--color3, #afb1b8)
 }
+
+fill="#2196f3" style="fill: var(--color3, #2196f3)"

@@ -558,8 +558,14 @@ p {
     margin-bottom: 0;
 }
 
-.envelope {
-    fill: red;
+.envelope-icon {
+    margin-right: 10px;
+    fill: #757575;
+   
+}
+
+.envelope-icon:hover{
+fill: #2196F3;
 }
 
    
