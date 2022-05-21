@@ -121,6 +121,7 @@ font-weight: 500;
 
 
 
+
 /* контакт-нав */
 .contact-link
 {
@@ -411,6 +412,12 @@ font-weight: 500;
     margin-left: auto;
 }
 
+
+   
+
+
+
+
 .contact-nav .item {
     margin-right: 50px;
 }
@@ -550,6 +557,11 @@ p {
 .footer-contact {
     margin-bottom: 0;
 }
+
+.envelope {
+    fill: red;
+}
+
    
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */
