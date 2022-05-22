@@ -21,3 +21,8 @@ var(--color3, #afb1b8)
 }
 
 fill="#2196f3" style="fill: var(--color3, #2196f3)"
+
+fill="#afb1b8" style="fill: var(--color4, #afb1b8)" --- инста это и ниже
+fill="#afb1b8" style="fill: var(--color4, #afb1b8)"
+
+fill="#afb1b8" style="fill: var(--color4, #afb1b8)" - twitter
